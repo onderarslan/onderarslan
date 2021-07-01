@@ -5,3 +5,4 @@ with open('onder.json','r') as json_file:
  ourjson = json.load(json_file)
 print("Adı: {}".format(ourjson['kimlik']['ad']))
 print("SoyAdı: {}".format(ourjson['kimlik']['soyad']))
+print("Kimlik Değeri: {}".format(ourjson['kimlik']))
